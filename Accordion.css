@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(210,207,183);
+}
+
+#box{
+    margin: 0;
+    position:relative;
+    height: 400px;
+    width: 500px;
+    border-radius: 19px;
+    background-color: rgb(193,150,75);
+}
+.accordion {
+    display: none;
+    overflow: hidden;
+}
+
+.accordion-button {
+    margin:0;
+    position: absolute;
+    background-color: rgb(169,129,60);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 290px;
+    right: 3%;
+    top:4%;
+    cursor: pointer;
+    border-radius: 19px;
+    transition: 0.7s;
+    font-family:sans-serif ;
+ 
+
+}
+
+.accordion-content {
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 50px;
+    width: 270px;
+    right: 3%;
+    top: 16%;
+    border-radius: 19px;
+    transition: 0.7s;
+}
+
+h2{
+    margin: 0;
+    position: absolute;
+    font-family:sans-serif;
+    left:10px ;
+    top:16px;
+}
+
+#A1{
+    margin:0;
+    position: absolute;
+    background-color: rgb(169,129,60);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 290px;
+    right: 3%;
+    top:24%;
+    cursor: pointer;
+    border-radius: 19px;
+    transition: 0.7s; 
+}
+
+#A2{
+    margin:0;
+    position: absolute;
+    background-color: rgb(169,129,60);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 290px;
+    right: 3%;
+    top:44%;
+    cursor: pointer;
+    border-radius: 19px;
+    transition: 0.7s; 
+}
+
+#A3{
+    margin:0;
+    position: absolute;
+    background-color: rgb(169,129,60);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 290px;
+    right: 3%;
+    top:64%;
+    cursor: pointer;
+    border-radius: 19px;
+    transition: 0.7s; 
+}
+
+#A4{
+    margin:0;
+    position: absolute;
+    background-color: rgb(169,129,60);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 290px;
+    right: 3%;
+    top:84%;
+    cursor: pointer;
+    border-radius: 19px;
+    transition: 0.7s; 
+}
